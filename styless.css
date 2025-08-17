@@ -1,0 +1,34 @@
+/* Reset the page style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* One section styled with box model */
+section {
+  background: white;
+  border: 3px solid #007BFF;   /* Border */
+  padding: 20px;              /* Space inside */
+  margin: 20px auto;          /* Space outside */
+  width: 80%;                 /* Content width */
+  max-width: 500px;           /* Keep it neat */
+  box-sizing: border-box;     /* Includes padding/border in width */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px;
+}
